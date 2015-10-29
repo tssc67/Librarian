@@ -92,5 +92,25 @@ namespace WindowsFormsApplication1
                 brbook.ShowDialog();
             Show();
         }
+
+        private void translatorLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void categoryLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void publishedYrLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -6,7 +6,6 @@ using System.Windows.Forms;
 using System.Data.SQLite;
 using System.Collections;
 using System.IO;
-
 namespace WindowsFormsApplication1
 {
     static class Program
@@ -61,6 +60,7 @@ namespace WindowsFormsApplication1
 
     class DBCommand
     {
+        
         public static string[,] searchBook(String bookName, String bookSubname, String writer, String translator, String publisher, String publishedYr, String category)
         {
             SQLiteConnection conn = new SQLiteConnection("data source=libDB.sqlite;");

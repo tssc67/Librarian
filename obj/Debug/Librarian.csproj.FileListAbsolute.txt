@@ -11,3 +11,4 @@ C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReturnBook.reso
 C:\w\WindowsFormsApplication1\obj\Debug\Librarian.csproj.GenerateResource.Cache
 C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\w\WindowsFormsApplication1\obj\Debug\Librarian.csprojResolveAssemblyReference.cache

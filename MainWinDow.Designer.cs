@@ -63,8 +63,9 @@
             // 
             // searchBtn
             // 
+            this.searchBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.searchBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.searchBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchBtn.Location = new System.Drawing.Point(810, 185);
             this.searchBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.searchBtn.Name = "searchBtn";
@@ -76,6 +77,8 @@
             // 
             // nameField
             // 
+            this.nameField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nameField.Location = new System.Drawing.Point(92, 76);
             this.nameField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.nameField.Name = "nameField";
@@ -84,6 +87,8 @@
             // 
             // nameLabel
             // 
+            this.nameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nameLabel.AutoSize = true;
             this.nameLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nameLabel.Location = new System.Drawing.Point(34, 79);
@@ -95,6 +100,7 @@
             // 
             // subNameLabel
             // 
+            this.subNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.subNameLabel.AutoSize = true;
             this.subNameLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.subNameLabel.Location = new System.Drawing.Point(484, 79);
@@ -103,9 +109,11 @@
             this.subNameLabel.Size = new System.Drawing.Size(59, 13);
             this.subNameLabel.TabIndex = 4;
             this.subNameLabel.Text = "ชื่อเรื่องรอง";
+            this.subNameLabel.Click += new System.EventHandler(this.subNameLabel_Click);
             // 
             // subNameField
             // 
+            this.subNameField.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.subNameField.Location = new System.Drawing.Point(548, 76);
             this.subNameField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.subNameField.Name = "subNameField";
@@ -114,6 +122,8 @@
             // 
             // writerLabel
             // 
+            this.writerLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.writerLabel.AutoSize = true;
             this.writerLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.writerLabel.Location = new System.Drawing.Point(34, 115);
@@ -125,6 +135,8 @@
             // 
             // writerField
             // 
+            this.writerField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.writerField.Location = new System.Drawing.Point(92, 112);
             this.writerField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.writerField.Name = "writerField";
@@ -133,6 +145,7 @@
             // 
             // translatorLabel
             // 
+            this.translatorLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.translatorLabel.AutoSize = true;
             this.translatorLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.translatorLabel.Location = new System.Drawing.Point(484, 116);
@@ -141,9 +154,11 @@
             this.translatorLabel.Size = new System.Drawing.Size(48, 13);
             this.translatorLabel.TabIndex = 8;
             this.translatorLabel.Text = "ชื่อผู้แปล";
+            this.translatorLabel.Click += new System.EventHandler(this.translatorLabel_Click);
             // 
             // translatorField
             // 
+            this.translatorField.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.translatorField.Location = new System.Drawing.Point(548, 113);
             this.translatorField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.translatorField.Name = "translatorField";
@@ -152,6 +167,8 @@
             // 
             // publisherLabel
             // 
+            this.publisherLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.publisherLabel.AutoSize = true;
             this.publisherLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.publisherLabel.Location = new System.Drawing.Point(34, 151);
@@ -163,6 +180,8 @@
             // 
             // publisherField
             // 
+            this.publisherField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.publisherField.Location = new System.Drawing.Point(92, 148);
             this.publisherField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.publisherField.Name = "publisherField";
@@ -171,6 +190,7 @@
             // 
             // publishedYrBox
             // 
+            this.publishedYrBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.publishedYrBox.FormattingEnabled = true;
             this.publishedYrBox.IntegralHeight = false;
             this.publishedYrBox.Items.AddRange(new object[] {
@@ -263,6 +283,7 @@
             // 
             // publishedYrLabel
             // 
+            this.publishedYrLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.publishedYrLabel.AutoSize = true;
             this.publishedYrLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.publishedYrLabel.Location = new System.Drawing.Point(484, 152);
@@ -271,9 +292,11 @@
             this.publishedYrLabel.Size = new System.Drawing.Size(44, 13);
             this.publishedYrLabel.TabIndex = 12;
             this.publishedYrLabel.Text = "ปีที่พิมพ์";
+            this.publishedYrLabel.Click += new System.EventHandler(this.publishedYrLabel_Click);
             // 
             // categoryLabel
             // 
+            this.categoryLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.categoryLabel.AutoSize = true;
             this.categoryLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.categoryLabel.Location = new System.Drawing.Point(642, 152);
@@ -282,9 +305,11 @@
             this.categoryLabel.Size = new System.Drawing.Size(34, 13);
             this.categoryLabel.TabIndex = 14;
             this.categoryLabel.Text = "หมวด";
+            this.categoryLabel.Click += new System.EventHandler(this.categoryLabel_Click);
             // 
             // categoryBox
             // 
+            this.categoryBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.categoryBox.FormattingEnabled = true;
             this.categoryBox.Items.AddRange(new object[] {
             "   000 เบ็ตเตล็ดหรือความรู้ทั่วไป (Generalities)  ​",
@@ -308,6 +333,10 @@
             this.bookDetail.AllowUserToAddRows = false;
             this.bookDetail.AllowUserToDeleteRows = false;
             this.bookDetail.AllowUserToOrderColumns = true;
+            this.bookDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bookDetail.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bookDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bookDetail.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.booknameColumn,
@@ -332,35 +361,30 @@
             this.booknameColumn.HeaderText = "ชื่อหนังสือ";
             this.booknameColumn.Name = "booknameColumn";
             this.booknameColumn.ReadOnly = true;
-            this.booknameColumn.Width = 200;
             // 
             // total
             // 
             this.total.HeaderText = "จำนวน";
             this.total.Name = "total";
             this.total.ReadOnly = true;
-            this.total.Width = 45;
             // 
             // categoryColumn
             // 
             this.categoryColumn.HeaderText = "หมวด";
             this.categoryColumn.Name = "categoryColumn";
             this.categoryColumn.ReadOnly = true;
-            this.categoryColumn.Width = 120;
             // 
             // writerColumn
             // 
             this.writerColumn.HeaderText = "ผู้แต่ง";
             this.writerColumn.Name = "writerColumn";
             this.writerColumn.ReadOnly = true;
-            this.writerColumn.Width = 150;
             // 
             // translatorColumn
             // 
             this.translatorColumn.HeaderText = "ผู้แปล";
             this.translatorColumn.Name = "translatorColumn";
             this.translatorColumn.ReadOnly = true;
-            this.translatorColumn.Width = 150;
             // 
             // publisherColumn
             // 
@@ -373,14 +397,12 @@
             this.publishedYrColumn.HeaderText = "ปีที่พิมพ์";
             this.publishedYrColumn.Name = "publishedYrColumn";
             this.publishedYrColumn.ReadOnly = true;
-            this.publishedYrColumn.Width = 50;
             // 
             // editionColumn
             // 
             this.editionColumn.HeaderText = "พิมพ์ครั้งที่";
             this.editionColumn.Name = "editionColumn";
             this.editionColumn.ReadOnly = true;
-            this.editionColumn.Width = 50;
             // 
             // ISBNColumn
             // 
@@ -396,20 +418,23 @@
             // 
             // headerLabel
             // 
+            this.headerLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.headerLabel.AutoSize = true;
             this.headerLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.headerLabel.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.Location = new System.Drawing.Point(32, 40);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(95, 28);
+            this.headerLabel.Size = new System.Drawing.Size(125, 25);
             this.headerLabel.TabIndex = 16;
             this.headerLabel.Text = "ค้นหาหนังสือ";
             // 
             // returnBtn
             // 
+            this.returnBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.returnBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.returnBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.returnBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.returnBtn.Location = new System.Drawing.Point(678, 661);
             this.returnBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.returnBtn.Name = "returnBtn";
@@ -421,8 +446,9 @@
             // 
             // adddelBookBtn
             // 
+            this.adddelBookBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.adddelBookBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.adddelBookBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adddelBookBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adddelBookBtn.Location = new System.Drawing.Point(812, 661);
             this.adddelBookBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.adddelBookBtn.Name = "adddelBookBtn";
@@ -434,8 +460,9 @@
             // 
             // borrowBtn
             // 
+            this.borrowBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.borrowBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.borrowBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.borrowBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.borrowBtn.Location = new System.Drawing.Point(542, 661);
             this.borrowBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.borrowBtn.Name = "borrowBtn";
