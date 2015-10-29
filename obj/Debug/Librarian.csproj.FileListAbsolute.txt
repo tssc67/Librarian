@@ -1,0 +1,13 @@
+C:\w\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\w\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\w\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\w\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.dll
+C:\w\WindowsFormsApplication1\bin\Debug\System.Net.Http.dll
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.BorrowBook.resources
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainWindow.resources
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddDelBook.resources
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReturnBook.resources
+C:\w\WindowsFormsApplication1\obj\Debug\Librarian.csproj.GenerateResource.Cache
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\w\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
