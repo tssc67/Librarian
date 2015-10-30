@@ -60,12 +60,40 @@ namespace WindowsFormsApplication1
             }
             catch (FormatException e2)
             {
+                int num = 0;
+                String message = "";
+                if(Int32.TryParse(amountField.Text,num)) {
+                    if(num<=0){
+                        message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                    }
+                }
+                else{
+                    message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                }
+                if(Int32.TryParse(editionField.Text,num)) {
+                    if(num<=0){
+                        message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                    }
+                }
+                else{
+                    message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                }
+                if(Int32.TryParse(publishedYrBox.Text,num)) {
+                    if(num<=0){
+                        message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                    }
+                }
+                else{
+                    message+="\nกรุณากรอกจำนวนเล่มให้ถูกต้อง";
+                }
+                /*
                 if (amountField.Text == "") MessageBox.Show("กรุณากรอกจำนวนเล่ม");
                 else if(Int32.Parse(amountField.Text) <= 0) MessageBox.Show("กรุณากรอกจำนวนเล่มที่ถูกต้อง");
                 else if(editionField.Text == "") MessageBox.Show("กรุณากรอกครั้งที่พิมพ์");
                 else if (Int32.Parse(editionField.Text) <= 0) MessageBox.Show("กรุณากรอกครั้งที่พิมพ์ที่ถูกต้อง");
                 else if (publishedYrBox.Text == "") MessageBox.Show("กรุณากรอกปีที่พิมพ์");
                 else if (Int32.Parse(publishedYrBox.Text) <= 0) MessageBox.Show("กรุณากรอกปีที่พิมพ์ที่ถูกต้อง");
+                */
             }
             
         }
